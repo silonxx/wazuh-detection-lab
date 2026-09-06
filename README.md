@@ -46,7 +46,7 @@ The endpoint stays hardened for the whole campaign. Tamper Protection, Real-Time
 | # | Technique | ATT&CK | Rule | Type | Level | Telemetry | Outcome |
 |---|---|---|---|---|---|---|---|
 | 1 | PowerShell | T1059.001 | 92032 | Built-in | 3 | Sysmon 1, PowerShell 4104 | Detected (incidental) |
-| 2 | Rundll32 | T1218.011 | | | | | |
+| 2 | Rundll32 | T1218.011 | 100010 | Custom | 10 | Sysmon 1, Defender 1117 | Blocked, detected on attempt |
 | 3 | Discovery | T1087.001 / T1082 / T1057 | | | | | |
 | 4 | Impair Defenses | T1562.001 | | | | | |
 | 5 | Registry Run Key | T1547.001 | | | | | |
